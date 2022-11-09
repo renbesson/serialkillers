@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <header><h1 class="title">Serial Killer</h1></header>
+    <main>
+      <section class="snsWrap">
+        <div class="snsDiv allDiv">
+          <label for="allInput">All Serial Numbers: </label
+          ><textarea type="text" id="allInput" cols="50" rows="5">
+FOC111, FOC222, FOC333</textarea
+          >
+        </div>
+        <div class="snsDiv DeliveredDiv">
+          <label for="deliveredInput">Delivered Serial Numbers: </label
+          ><textarea type="text" id="deliveredInput" cols="50" rows="5">
+FOC222</textarea
+          >
+        </div>
+        <button id="submitBtn">Split</button>
+      </section>
+      <section class="resultWrap">
+        <h1 class="subtitle">Result:</h1>
+        <textarea class="resultDiv" cols="50" rows="5" readonly></textarea>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>

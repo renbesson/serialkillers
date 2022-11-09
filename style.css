@@ -1,0 +1,29 @@
+header,
+main,
+footer {
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+}
+
+.subtitle {
+  margin: 20px;
+  font-size: 24px;
+}
+
+.snsWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.snsDiv {
+  flex: 1;
+}
+
+.resultDiv {
+  border: 1px solid black;
+  background-color: lightgray;
+}
